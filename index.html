@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>دنیای عروس هلندی | دانشنامه تخصصی</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+margin:0;
+font-family:Tahoma,sans-serif;
+background:#fff9fc;
+color:#493b4b;
+}
+header{
+background:white;
+padding:18px 6%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 3px 20px #ead9e8;
+position:sticky;
+top:0;
+z-index:10;
+}
+.logo{font-size:21px;color:#a75c9c;font-weight:bold}
+nav a{
+text-decoration:none;
+color:#59465c;
+margin:7px;
+font-size:13px;
+}
+.hero{
+padding:75px 15px;
+text-align:center;
+background:linear-gradient(130deg,#f9dff1,#eee5ff);
+}
+.hero h1{font-size:32px;color:#995497}
+.hero p{line-height:2}
+.btn{
+border:0;
+padding:13px 24px;
+background:#a75c9c;
+color:white;
+border-radius:12px;
+cursor:pointer;
+}
+section{padding:45px 7%}
+h2{text-align:center;color:#a75c9c}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+gap:18px;
+}
+.card{
+background:white;
+padding:23px;
+border-radius:20px;
+box-shadow:0 5px 20px #eaddea;
+text-align:center;
+}
+.card h3{color:#a75c9c}
+.card p{line-height:2;font-size:14px}
+.emoji{font-size:42px}
+.notice{
+background:#f5e9f7;
+padding:20px;
+border-radius:15px;
+line-height:2;
+}
+footer{
+background:#49384e;
+color:white;
+text-align:center;
+padding:30px;
+line-height:2;
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">🦜 دنیای عروس هلندی</div>
+<nav>
+<a href="#home">خانه</a>
+<a href="#about">معرفی</a>
+<a href="#food">تغذیه</a>
+<a href="#colors">رنگ‌ها</a>
+<a href="#health">سلامت</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<div class="emoji">🦜</div>
+<h1>به دنیای عروس هلندی خوش آمدید!</h1>
+<p>هر آنچه برای شناخت و نگهداری بهتر عروس هلندی نیاز دارید، اینجاست.</p>
+<button class="btn" onclick="document.getElementById('about').scrollIntoView()">شروع گردش در سایت</button>
+</div>
+
+<section id="about">
+<h2>💜 آشنایی با عروس هلندی</h2>
+<div class="card">
+<div class="emoji">🐥</div>
+<h3>عروس هلندی چیست؟</h3>
+<p>عروس هلندی پرنده‌ای اجتماعی و باهوش از خانواده کاکادوهاست که بومی استرالیاست. این پرنده به کاکل زیبا و گونه‌های رنگی خود معروف است.</p>
+</div>
+</section>
+
+<section id="food">
+<h2>🥗 تغذیه اصولی</h2>
+<div class="grid">
+<div class="card"><div class="emoji">🥕</div><h3>سبزیجات</h3><p>هویج و بروکلی و سبزیجات مجاز، شسته و تازه.</p></div>
+<div class="card"><div class="emoji">🌾</div><h3>دانه‌ها</h3><p>دانه‌ها باید در مقدار متعادل و متناسب با رژیم پرنده مصرف شوند.</p></div>
+<div class="card"><div class="emoji">🥣</div><h3>پلت</h3><p>پلت باکیفیت مخصوص عروس هلندی می‌تواند بخش اصلی رژیم غذایی باشد.</p></div>
+<div class="card"><div class="emoji">💧</div><h3>آب تازه</h3><p>هر روز آب تمیز و تازه در اختیار پرنده قرار دهید.</p></div>
+</div>
+</section>
+
+<section id="colors">
+<h2>🎨 رنگ‌ها و جهش‌ها</h2>
+<div class="grid">
+<div class="card"><div class="emoji">🐤</div><h3>لوتینو</h3><p>بدن عمدتاً زرد یا سفید با گونه‌های نارنجی.</p></div>
+<div class="card"><div class="emoji">🐥</div><h3>خاکستری معمولی</h3><p>بدن خاکستری با نشانه‌های سفید روی بال‌ها.</p></div>
+<div class="card"><div class="emoji">🤍</div><h3>وایت فیس</h3><p>فاقد رنگ زرد و گونه نارنجی در صورت.</p></div>
+<div class="card"><div class="emoji">🤎</div><h3>دارچینی</h3><p>رنگ بدن قهوه‌ای مایل به دارچینی.</p></div>
+<div class="card"><div class="emoji">✨</div><h3>مرواریدی</h3><p>دارای طرح‌های مرواریدی روی پرها.</p></div>
+<div class="card"><div class="emoji">🩶</div><h3>ابلق</h3><p>دارای ترکیبی از بخش‌های روشن و خاکستری.</p></div>
+</div>
+</section>
+
+<section id="health">
+<h2>🩺 سلامت و مراقبت</h2>
+<div class="grid">
+<div class="card"><h3>نشانه‌های بیماری</h3><p>بی‌حالی، کاهش اشتها، پف‌کردن طولانی و تغییر مدفوع را جدی بگیرید.</p></div>
+<div class="card"><h3>محیط امن</h3><p>دود، بخار ظروف نچسب داغ و مواد شیمیایی را از پرنده دور نگه دارید.</p></div>
+<div class="card"><h3>دامپزشک</h3><p>معاینه توسط دامپزشک متخصص پرندگان اهمیت زیادی دارد.</p></div>
+</div>
+</section>
+
+<section>
+<h2>❤️ یک نکته مهم</h2>
+<div class="notice">
+عروس هلندی به توجه، تغذیه مناسب، خواب کافی و محیط امن نیاز دارد. در صورت مشاهده علائم بیماری، سریعاً از دامپزشک پرندگان کمک بگیرید.
+</div>
+</section>
+
+<footer>
+<h3>🦜 دنیای عروس هلندی</h3>
+<p>دانش بیشتر، مراقبت بهتر ❤️</p>
+<p>© تمامی حقوق محفوظ است.</p>
+</footer>
+
+</body>
+</html>
